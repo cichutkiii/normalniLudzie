@@ -10,10 +10,11 @@ namespace kalkulator
             {
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("4.Exit");
-                Console.WriteLine("1.Dodawanie");
-                Console.WriteLine("2.Odejmowanie");
+                );
                 Console.WriteLine("3.mnoznik");
 
+                Console.WriteLine("1.Dodawanie");
+                Console.WriteLine("2.Odejmowanie"
                 if (menuOption == 4)
                 {
                     break;
